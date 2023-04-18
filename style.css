@@ -1,0 +1,119 @@
+@media (min-width: 681px){
+  body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: #faf9f6;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+  }
+  
+  h1 {
+    font-size: 5rem;
+  }
+  
+  footer {
+    text-align: right;
+    color: midnightblue;
+  }
+  
+  div{
+    display: inline-block;
+    width: 100%;
+  }
+  
+  p.card-text{
+    text-align: left;
+  }
+  
+  .main {
+    flex: 1;
+  }
+
+  .orange-span{
+    color: #ec830a;
+  }
+  
+  .tile-image{
+    width: 37%;
+    float: left;
+    margin-right: 50px;
+  }
+  
+  .left-card{
+    float: left;
+    display: block;
+    width: 45%;
+  }
+  
+  .right-card{
+    float: right;
+    display: block;
+    width: 45%;
+  }
+
+  .logo{
+    width: 15%;
+  }
+}
+
+@media (max-width: 680px){
+  body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: #faf9f6;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  footer {
+    text-align: right;
+    color: midnightblue;
+    margin-top: 30px;
+  }
+  
+  div{
+    display: inline-block;
+    width: 100%;
+  }
+  
+  p.card-text{
+    text-align: justify;
+  }
+  
+  .main {
+    flex: 1;
+  }
+  
+  .orange-span{
+    color: #ec830a;
+  }
+  
+  .tile-image{
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+  }
+  
+  .left-card{
+    float: top;
+    display: block;
+    width: 100%;
+  }
+  
+  .right-card{
+    float: bottom;
+    display: block;
+    width: 100%;
+  }
+
+  .logo{
+    width: 20%;
+  }
+}
